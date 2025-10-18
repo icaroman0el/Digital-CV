@@ -124,6 +124,21 @@ h1 {
   background: #001d6b;
 }
 
+.btn.primary {
+  border: 2px solid #fff; /* Borda branca */
+  background: transparent;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
+}
+
+.btn.primary:hover {
+  background: #fff;
+  color: #013ad9;
+  border-color: #013ad9;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
 .skills {
   text-align: center;
   padding: 80px 20px;
@@ -347,3 +362,4 @@ html {
     font-size: 15px;
   }
 }
+
