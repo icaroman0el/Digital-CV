@@ -35,7 +35,12 @@ function revealOnScroll() {
   });
 }
 
-
-
 window.addEventListener("scroll", revealOnScroll);
 window.addEventListener("load", revealOnScroll);
+
+// ===== Corrige clique único nos links da seção de redes =====
+document.querySelectorAll('.redes-container a').forEach(link => {
+  link.addEventListener('click', (e) => {
+    window.location.href = link.href; // força seguir o link imediatamente
+  });
+});
