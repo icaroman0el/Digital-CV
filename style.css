@@ -124,6 +124,10 @@ h1 {
   background: #001d6b;
 }
 
+/* ================================
+   ADICIONADO POR CHATGPT AQUI 👇
+   Estilo personalizado do botão "📄 Baixar Currículo"
+================================= */
 .btn.primary {
   border: 2px solid #fff; /* Borda branca */
   background: transparent;
@@ -138,7 +142,11 @@ h1 {
   border-color: #013ad9;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
 }
+/* ================================ */
 
+
+
+/* ===== Seções ===== */
 .skills {
   text-align: center;
   padding: 80px 20px;
@@ -361,6 +369,5 @@ html {
   .description {
     font-size: 15px;
   }
+
 }
-
-
