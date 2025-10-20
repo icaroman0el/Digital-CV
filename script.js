@@ -1,12 +1,3 @@
-// ===== Botões de CV =====
-document.querySelector(".btn.primary").addEventListener("click", () => {
-  alert("Baixando CV de Ícaro Manoel...");
-});
-
-document.getElementById("downloadCV").addEventListener("click", () => {
-  window.open("curriculo.pdf", "_blank"); // coloque aqui seu PDF
-});
-
 // ===== Scroll Spy (destaca link da navbar) =====
 const navLinks = document.querySelectorAll(".navbar nav ul li a");
 const sections = document.querySelectorAll("section[id]");
@@ -43,6 +34,8 @@ function revealOnScroll() {
     }
   });
 }
+
+
 
 window.addEventListener("scroll", revealOnScroll);
 window.addEventListener("load", revealOnScroll);
