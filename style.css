@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -236,7 +238,7 @@ h1 {
 
 .cv-section {
   text-align: center;
-  padding: 80px 20px;
+  padding: 50px 20px;
   background: #013ad9;
   color: #fff;
 }
@@ -313,6 +315,42 @@ html {
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+.redes-container {
+  display: flex;       /* coloca os links lado a lado */
+  gap: 20px;           /* espaço entre eles */
+  align-items: center; /* centraliza verticalmente ícones e texto */
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1px;
+}
+
+.redes-wrapper {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  padding: 2px 0;
+}
+
+
+.redes-container a {
+  display: inline-flex;    
+  align-items: center;    
+  gap: 8px;                
+  text-decoration: none;   
+  color: #ffffff;         
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.redes-container a:hover {
+  color: #0077cc;        
+  transform: scale(1.1); 
+}
+
+.redes-container i {
+  font-size: 20px; 
 }
 
 /* ===== Responsividade ===== */
